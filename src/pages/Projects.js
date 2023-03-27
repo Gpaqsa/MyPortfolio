@@ -6,7 +6,7 @@ import ProjectList from "../helpers/ProjectList"
 
 const Projects = () => {
   return (
-    <div className='Projects'>
+    <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectsList'>
       {ProjectList.map((project, idx) => {

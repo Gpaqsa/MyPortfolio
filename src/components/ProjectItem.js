@@ -11,7 +11,7 @@ const ProjectItems = ({name, image, id}) => {
     }}
     >
       <div  className='bgImage' style={{backgroundImage: `url("${image}")` }}/>
-      <h1> {name}</h1>
+      <h1 className='projectTitle'> {name}</h1>
     </div>
   )
 }

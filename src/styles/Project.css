@@ -5,18 +5,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
 }
 
 .projects .projectTitle {
     text-align: center;
-    color: black;
-    font-size: 60px;
+    color: gold;
+    font-size: 20px;
     font-weight: bolder;
+    margin-top: 20px;
 }
 
-.projectList {
-    width: 70vw;
+.projectsList {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,8 +23,7 @@
 }
 
 /* MENU ITEM STYLING */
-
-.projectItem {
+.projectsItem {
     border-radius: 15px;
     width: 300px;
     height: 300px;
@@ -35,13 +33,13 @@
 
 }
 
-.projectItem:hover {
+.projectsItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
 }
 
-.projectItem .bgImage {
+.projectsItem .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -53,7 +51,7 @@
 
 }
 
-.projectItem h1 {
+.projectsItem h1 {
     font-size: 25px;
 }
 
@@ -74,7 +72,7 @@
         width: 100%;
     }
 
-    .projectItem {
+    .projectsItem {
         width: 300px;
         height: 300px;
     }
