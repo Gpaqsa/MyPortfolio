@@ -1,12 +1,19 @@
 import React from 'react'
-import ProjectItems from "../components/ProjectItems"
+import ProjectItem from "../components/ProjectItem"
+import "../styles/Project.css"
+
+import ProjectList from "../helpers/ProjectList"
 
 const Projects = () => {
   return (
     <div className='Projects'>
       <h1>My Personal Projects</h1>
       <div className='projectsList'>
-        <ProjectItems  name={Projects.name} image={Projects.image}/ >
+      {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} />
+          );
+        })}
       </div>
     </div>
   )
