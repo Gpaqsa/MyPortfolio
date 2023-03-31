@@ -10,9 +10,15 @@ const Footer = () => {
             <div className='footer'>
                 <div className='socialMedia'>
                     <hr />
-                    <BsInstagram />
-                    <BsGithub />
-                    <BsLinkedin />
+                    <a href=''>
+                        <BsInstagram />
+                    </a>
+                    <a href='https://github.com/Gpaqsa'>
+                        <BsGithub />
+                    </a>
+                    <a href='https://www.linkedin.com/in/giorgi-paksashvili-a7a47b207/'>
+                        <BsLinkedin />
+                    </a>
                 </div>
                 <p>&copy: GiorgiPaksashvili</p>
             </div>

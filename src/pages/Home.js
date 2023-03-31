@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsGithub } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
-import { MdEmail } from 'react-icons/md'
+
 
 import "../styles/Home.css"
 const Home = () => {
@@ -15,9 +15,14 @@ const Home = () => {
             I am a beginner developer. I want to become a full-stack developer and I'm trying to work hard for that.
             I'm currently learning ReactJS and trying to make small projects in my spare time.
           </p>
-          <BsGithub />
-          <BsLinkedin />
-          <MdEmail />
+          <a href='https://github.com/Gpaqsa'>
+            <BsGithub />
+          </a>
+
+          <a href='https://www.linkedin.com/in/giorgi-paksashvili-a7a47b207/'>
+            <BsLinkedin />
+
+          </a>
         </div>
       </div>
       <div className='skills'>
