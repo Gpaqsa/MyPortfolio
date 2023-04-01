@@ -56,20 +56,21 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .projectList {
+    .projectsList {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .projectList {
+    .projectsList {
         grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .projectList {
+    .projectsList {
         width: 100%;
+
     }
 
     .projectsItem {
