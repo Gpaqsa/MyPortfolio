@@ -2,6 +2,8 @@
 
 It is my  own potfolio, which contains my skills and projects.
 
+ITt is link https://main--glowing-sorbet-df9951.netlify.app/ where you can see myFullPortfolio. :d
+
 #1 Web Desktop  version
 
 #1 Home Page
