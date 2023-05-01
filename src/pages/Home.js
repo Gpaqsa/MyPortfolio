@@ -12,8 +12,9 @@ const Home = () => {
         <h2> My name is Giorgi Paksashvili</h2>
         <div className='prompt'>
           <p>
-            I am a beginner developer. I want to become a full-stack developer and I'm trying to work hard for that.
-            I'm currently learning ReactJS and trying to make small projects in my spare time.
+            As a full-stack developer, I have a solid foundation in both front- end and back-end development.
+            Although I am currently lacking professional experience in the field, I am highly motivated to continue learning and expanding my skillset.
+            I am confident that I can contribute to any development team and deliver high- quality results.
           </p>
           <a href='https://github.com/Gpaqsa'>
             <BsGithub />
